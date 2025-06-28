@@ -6,7 +6,7 @@ from datetime import datetime
 from langdetect import detect, LangDetectException
 
 st.set_page_config(page_title="Customer Support AI", page_icon="💬")
-st.title("💬 Customer Support AI ")
+st.title("   💬 Customer Support AI ")
 
 # 🔑 Groq client
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
